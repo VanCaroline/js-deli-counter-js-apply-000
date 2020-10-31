@@ -1,8 +1,19 @@
 //Deli Counter Lab
 
-
-function takeANumber (katzDeliLine, name){
+  var i=0;
   
+function takeANumber (katzDeliLine){
+ 
+  katzDeliLine.push(i);
+  
+  i++;
+  
+  console.log("You are number "+i+"in line")
+  
+  return katzDeliLine;
+  
+  
+  /*
   var message=[];
 
   var num=((katzDeliLine.length)+1); 
@@ -11,7 +22,7 @@ function takeANumber (katzDeliLine, name){
   
     message.push("Welcome, "+name+". You are number "+num+" in line.")
   
-  return message;
+  return message;*/
 }
 
 
